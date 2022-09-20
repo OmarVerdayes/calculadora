@@ -1,0 +1,19 @@
+CREATE SCHEMA `operaciones` ;
+
+use operaciones;
+
+CREATE TABLE `operaciones`.`operaciones` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nombre` VARCHAR(45) NULL,
+  `num1` VARCHAR(45) NULL,
+  `num2` VARCHAR(45) NULL,
+  `resultado` VARCHAR(45) NULL,
+  `fecha` DATETIME NULL,
+  PRIMARY KEY (`id`));
+
+
+/*insert into operaciones(nombre,num1,num2,resultado,fecha)values("suma","1","2","3",time(NOW()));*/
+
+
+
+
